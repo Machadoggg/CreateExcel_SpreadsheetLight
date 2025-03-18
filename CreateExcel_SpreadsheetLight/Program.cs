@@ -12,3 +12,9 @@ dt.Columns.Add("Name", typeof(string));
 dt.Columns.Add("Age", typeof(int));
 dt.Columns.Add("Gender", typeof(string));
 
+//Add Rows
+dt.Rows.Add("Pedro", 13, "Hombre");
+dt.Rows.Add("Ana", 23, "Mujer");
+dt.Rows.Add("Luis", 33, "Hombre");
+dt.Rows.Add("Lina", 13, "Mujer");
+dt.Rows.Add("Leon", 43, "Hombre");
