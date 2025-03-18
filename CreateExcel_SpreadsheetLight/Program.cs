@@ -21,3 +21,6 @@ dt.Rows.Add("Leon", 43, "Hombre");
 
 //Generate matrix excel init write
 oSLDocument.ImportDataTable(1, 1, dt, true);
+
+//Save document
+oSLDocument.SaveAs(pathFile);
