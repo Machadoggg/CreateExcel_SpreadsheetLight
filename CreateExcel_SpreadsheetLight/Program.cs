@@ -18,3 +18,6 @@ dt.Rows.Add("Ana", 23, "Mujer");
 dt.Rows.Add("Luis", 33, "Hombre");
 dt.Rows.Add("Lina", 13, "Mujer");
 dt.Rows.Add("Leon", 43, "Hombre");
+
+//Generate matrix excel init write
+oSLDocument.ImportDataTable(1, 1, dt, true);
