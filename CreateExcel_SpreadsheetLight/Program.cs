@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+
+using SpreadsheetLight;
+
+string pathFile = AppDomain.CurrentDomain.BaseDirectory + "myExcel.xlsx";
+
+SLDocument oSLDocument = new SLDocument();
+
+System.Data.DataTable dt = new System.Data.DataTable();
+
+
+
